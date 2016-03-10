@@ -1,0 +1,12 @@
+{
+"source":
+             {
+             "file_names"    :""
+             },
+"destination":
+             {
+             "file_directory"    :"\\destination\\",
+             "assets_file_name"  :"assets_performance.xlsx",
+             "holdings_file_name":"holdings_performance.xlsx"
+             }
+}

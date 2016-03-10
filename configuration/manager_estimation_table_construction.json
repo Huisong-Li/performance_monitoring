@@ -1,0 +1,276 @@
+{
+"estimation_table_01":
+                     {
+                     "port_name":"优享7号",
+                     "construction":
+                                   {
+                                   "assets":
+                                             {
+                                             "sheet_name"     :"Sheet1",
+                                             "header"         :3,
+                                             "vertical_axis"  :
+                                                              {
+                                                              "account_id"  :"科目代码",
+                                                              "market_value":"市值",
+                                                              "total_cost"  :"成本",
+                                                              "account_name":"科目名称"
+                                                              },
+                                             "horizontal_axis":
+                                                              {
+                                                              "begin_cash"              :"1002",
+                                                              "current_cash_eod"        :"1002",
+                                                              "stock_asset"             :"其中股票投资:",
+                                                              "fund_asset"              :"其中基金投资:",
+                                                              "bond_asset"              :"其中债券投资:",
+                                                              "deposit_asset"           :"1002",
+                                                              "repo_asset"              :"1202",
+                                                              "other_currency_asset"    :"1012",
+                                                              "security_settlement_cash":"1022",
+                                                              "futures_asset"           :"",
+                                                              "accumulate_profit"       :"本期已实现收益:",
+                                                              "allocatble_profit"       :"可分配利润:",
+                                                              "net_assets"              :"",
+                                                              "total_assets"            :"资产类合计:",
+                                                              "credit_value"            :"负债类合计:",
+                                                              "accumulate_unit_value"   :"累计单位净值:",
+                                                              "unit_value_yesterday"    :"昨日单位净值:",
+                                                              "unit_value"              :"今日单位净值:"
+                                                              }
+                                             },
+                                   "holdings":
+                                             {
+                                             
+                                             }
+                                   }
+                     },
+"estimation_table_02":
+                     {
+                     "port_name":"双隆1号",
+                     "construction":
+                                   {
+                                   "assets": 
+                                             {
+                                             "sheet_name"     :"Sheet1",
+                                             "header"         :3,
+                                             "vertical_axis"  :
+                                                              {
+                                                              "account_id"  :"科目代码",
+                                                              "market_value":"市值",
+                                                              "total_cost"  :"成本",
+                                                              "account_name":"科目名称"
+                                                              },
+                                             "horizontal_axis":
+                                                              {
+                                                              "begin_cash"              :"1002",
+                                                              "current_cash_eod"        :"1002",
+                                                              "stock_asset"             :"其中股票投资:",
+                                                              "fund_asset"              :"其中基金投资:",
+                                                              "bond_asset"              :"其中债券投资:",
+                                                              "deposit_asset"           :"1002",
+                                                              "repo_asset"              :"1202",
+                                                              "other_currency_asset"    :"1012",
+                                                              "security_settlement_cash":"1022",
+                                                              "futures_asset"           :"",
+                                                              "accumulate_profit"       :"从成立日开始的累计已实现收益:",
+                                                              "allocatble_profit"       :"可分配利润:",
+                                                              "net_assets"              :"",
+                                                              "total_assets"            :"资产类合计:",
+                                                              "credit_value"            :"负债类合计:",
+                                                              "accumulate_unit_value"   :"累计单位净值:",
+                                                              "unit_value_yesterday"    :"昨日单位净值",
+                                                              "unit_value"              :"基金单位净值："
+                                                              }
+                                             },
+                                   "holdings":
+                                             {
+                                             
+                                             }
+                                   }
+                     },
+"estimation_table_03":
+                     {
+                     "port_name":"泰山1号",
+                     "construction":
+                                   {
+                                   "sheet_name"     :"Sheet1",
+                                   "header"         :3,
+                                   "vertical_axis"  :
+                                                    {
+                                                    "account_id"  :"科目代码",
+                                                    "account_name":"科目名称",
+                                                    "amount"      :"数量",
+                                                    "unit_cost"   :"单位成本",
+                                                    "total_cost"  :"成本",
+                                                    "market_price":"市价",
+                                                    "market_value":"市值",
+                                                    "pandl"       :"估值增值"
+                                                    },
+                                   "assets":
+                                             {
+                                             "balance_axis"   :
+                                                              {
+                                                              "deposit_asset"           :"1002",
+                                                              "deposit_reservation "    :"1021",
+                                                              "deposit_recognizance"    :"1031",
+                                                              "stock_asset"             :"1102",
+                                                              "bond_asset"              :"1103",
+                                                              "assets_backed_security"  :"1104",
+                                                              "fund_asset"              :"1105",
+                                                              "financial_products"      :"1109",
+                                                              "repo_asset"              :"1202",
+                                                              "dividend_receivable"     :"1203",
+                                                              "interest_receivable"     :"1204",
+                                                              "subscription_receivable" :"1207",
+                                                              "other_receivables"       :"1221",
+                                                              "bad_debt_reserves"       :"1501",
+                                                              "liquidation_security"    :"3003",
+                                                              "futures_asset"           :"3102",
+                                                              "total_assets"            :"资产类合计:",
+                                                              "credit_value"            :"负债类合计:"
+                                                              
+                                                              },
+                                            "summary_axis"    :
+                                                              {
+                                                              "accumulate_unit_value"   :"累计单位净值:",
+                                                              "accumulate_profit"       :"从成立日开始的累计已实现收益:",
+                                                              "allocatble_profit"       :"可分配利润:",
+                                                              "unit_value_yesterday"    :"昨日单位净值",
+                                                              "unit_value"              :"基金单位净值："
+                                                              }
+                                             },
+                                   "holdings":
+                                             {
+                                             "logical_axis"   :
+                                                              {
+                                                              "position_flag"     :["310202","310204"],
+                                                              "market_no"         :
+                                                                                  {
+                                                                                  "SZ":["11023","11024","120202"],
+                                                                                  "SH":["110201","120201"],
+                                                                                  "ZJS":["310201","310202","310203","310204"],
+                                                                                  "BANK":"120203"
+                                                                                  },
+                                                              "sub_market_no"     :
+                                                                                  {
+                                                                                  "SZ.A":"11023",
+                                                                                  "SZ.CYB":"11024"
+                                                                                  },
+                                                              "security_type"     :
+                                                                                  {
+                                                                                  "stock":"1102",
+                                                                                  "future":"3102",
+                                                                                  "fund":"1105",
+                                                                                  "repo":"1202",
+                                                                                  "deposit":"1002"
+                                                                                  },
+                                                              "security_code"     :{},
+                                                              "wind_security_code":"hehe"
+                                                              
+                                                              },
+                                            "calculation_axis":
+                                                              {
+                                                              "begin_amount":{},
+                                                              "buy_amount":{},
+                                                              "sale_amount":{},
+                                                              "buy_cash":{},
+                                                              "sale_cash":{},
+                                                              "buy_fee":{},
+                                                              "sale_fee":{}
+                                                              }
+                                             }
+                                   }
+                     },
+"estimation_table_04":
+                     {
+                     "port_name":"盈润七号",
+                     "construction":
+                                   {
+                                   "sheet_name"     :"Sheet1",
+                                   "header"         :3,
+                                   "vertical_axis"  :
+                                                    {
+                                                    "account_id"  :"科目代码",
+                                                    "account_name":"科目名称",
+                                                    "amount"      :"数量",
+                                                    "unit_cost"   :"单位成本",
+                                                    "total_cost"  :"成本",
+                                                    "market_price":"市价",
+                                                    "market_value":"市值",
+                                                    "pandl"       :"估值增值"
+                                                    },
+                                   "assets":
+                                             {
+                                             "balance_axis"   :
+                                                              {
+                                                              "deposit_asset"           :"1002",
+                                                              "deposit_reservation "    :"1021",
+                                                              "deposit_recognizance"    :"1031",
+                                                              "stock_asset"             :"1102",
+                                                              "bond_asset"              :"1103",
+                                                              "assets_backed_security"  :"1104",
+                                                              "fund_asset"              :"1105",
+                                                              "financial_products"      :"1109",
+                                                              "repo_asset"              :"1202",
+                                                              "dividend_receivable"     :"1203",
+                                                              "interest_receivable"     :"1204",
+                                                              "subscription_receivable" :"1207",
+                                                              "other_receivables"       :"1221",
+                                                              "bad_debt_reserves"       :"1501",
+                                                              "liquidation_security"    :"3003",
+                                                              "futures_asset"           :"3102",
+                                                              "total_assets"            :"资产类合计:",
+                                                              "credit_value"            :"负债类合计:"
+                                                              
+                                                              },
+                                            "summary_axis"    :
+                                                              {
+                                                              "accumulate_unit_value"   :"累计单位净值:",
+                                                              "accumulate_profit"       :"从成立日开始的累计已实现收益:",
+                                                              "allocatble_profit"       :"可分配利润:",
+                                                              "unit_value_yesterday"    :"昨日单位净值",
+                                                              "unit_value"              :"基金单位净值："
+                                                              }
+                                             },
+                                   "holdings":
+                                             {
+                                             "logical_axis"   :
+                                                              {
+                                                              "position_flag"     :["310202","310204"],
+                                                              "market_no"         :
+                                                                                  {
+                                                                                  "SZ":["11023","11024","120202"],
+                                                                                  "SH":["110201","120201"],
+                                                                                  "ZJS":["310201","310202","310203","310204"],
+                                                                                  "BANK":"120203"
+                                                                                  },
+                                                              "sub_market_no"     :
+                                                                                  {
+                                                                                  "SZ.A":"11023",
+                                                                                  "SZ.CYB":"11024"
+                                                                                  },
+                                                              "security_type"     :
+                                                                                  {
+                                                                                  "stock":"1102",
+                                                                                  "future":"3102",
+                                                                                  "fund":"1105",
+                                                                                  "repo":"1202",
+                                                                                  "deposit":"1002"
+                                                                                  },
+                                                              "security_code"     :{},
+                                                              "wind_security_code":{}
+                                                              
+                                                              },
+                                            "calculation_axis":
+                                                              {
+                                                              "begin_amount":{},
+                                                              "buy_amount":{},
+                                                              "sale_amount":{},
+                                                              "buy_cash":{},
+                                                              "sale_cash":{},
+                                                              "buy_fee":{},
+                                                              "sale_fee":{}
+                                                              }
+                                             }
+                                   }
+                     }
+}

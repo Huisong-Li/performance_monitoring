@@ -1,0 +1,24 @@
+{
+"F00001":
+           {
+           "fund_property":{"fund_name":"FOF1"},
+           "portfolios":
+                          {
+                          "P00001":{"port_property":{"port_name":"优享7号"}},
+                          "P00002":{"port_property":{"port_name":"双隆1号"}}
+                          }
+           },
+"F00002":
+           {
+           "fund_property":{"fund_name":"FOF2"},
+           "portfolios":
+                          {
+                          "P00003":{"port_property":{"port_name":"泰山1号"}},
+                          "P00004":{"port_property":{"port_name":"盈润七号"}}
+                          }
+           },
+"benchmark":
+           {
+           "benchmark_property":{"benchmark_name":"000300.SH"}
+           }
+}

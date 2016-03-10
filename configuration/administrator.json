@@ -1,0 +1,9 @@
+{
+"source"      :{"file_directory":"\\source\\"},
+"back"        :{"file_directory":"\\back\\"},
+"oracle"      :
+              {
+              "conn_str":"perfdata/perfdata123@192.168.4.10:1522/orcl",
+              "engine":"oracle://perfdata:perfdata123@192.168.4.10:1522/orcl"
+              }
+}

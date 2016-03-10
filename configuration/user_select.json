@@ -1,0 +1,14 @@
+{
+"basic":
+          {
+          "start_date":20140101, 
+          "end_date"  :20151231,
+          "fund_names":"F00002",
+          "port_names":"P00004"
+          },
+"holdings":
+          {
+          "weight_table_num" :10, 
+          "ranking_table_num":10
+          } 
+}

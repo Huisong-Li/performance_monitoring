@@ -1,0 +1,233 @@
+<performance shelf="Excel">
+   <index content="start">
+      <type>data_format</type>
+      <language>
+         <chinese>开始日期</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="end">
+      <type>data_format</type>
+      <language>
+         <chinese>终止日期</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="_yearly_rf">
+      <type>percent</type>
+      <language>
+         <chinese>####</chinese>   
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="total_return">
+      <type>percent</type>
+      <language>
+         <chinese>期间收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="daily_sharpe">
+      <type>float</type>
+      <language>
+        <chinese>日Sharpe指数</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="cagr">
+      <type>percent</type>
+      <language>
+         <chinese>复合年均增长率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="max_drawdown">
+      <type>percent</type>
+      <language>
+         <chinese>最大回撤</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="mtd">
+      <type>percent</type>
+      <language>
+         <chinese>1个月收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="three_month">
+      <type>percent</type>
+      <language>
+         <chinese>3个月收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="six_month">
+      <type>percent</type>
+      <language>
+         <chinese>6个月收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="ytd">
+      <type>percent</type>
+      <language>
+         <chinese>年化收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="one_year">
+      <type>percent</type>
+      <language>
+         <chinese>####</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="five_year">
+      <type>percent</type>
+      <language>
+         <chinese>####</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="daily_mean">
+      <type>percent</type>
+      <language>
+         <chinese>均值-日收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="daily_vol">
+      <type>percent</type>
+      <language>
+         <chinese>波动率-日收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="daily_skew">
+      <type>float</type>
+      <language>
+         <chinese>偏度-日收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="daily_kurt">
+      <type>float</type>
+      <language>
+         <chinese>峰度-日收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="best_day">
+      <type>percent</type>
+      <language>
+         <chinese>最大日收益率</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="worst_day">
+      <type>percent</type>
+      <language>
+         <chinese>最小日收益率</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="monthly_sharpe">
+      <type>float</type>
+      <language>
+         <chinese>Sharpe指标-月</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="monthly_mean">
+      <type>percent</type>
+      <language>
+         <chinese>均值-月收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="monthly_vol">
+      <type>percent</type>
+      <language>
+         <chinese>波动率-月收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="monthly_skew">
+      <type>float</type>
+      <language>
+         <chinese>偏度-月收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="monthly_kurt">
+      <type>float</type>
+      <language>
+         <chinese>峰度-月收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="best_month">
+      <type>percent</type>
+      <language>
+         <chinese>最大月收益率</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="worst_month">
+      <type>percent</type>
+      <language>
+         <chinese>最小月收益率</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="yearly_sharpe">
+      <type>float</type>
+      <language>
+         <chinese>Sharpe指标-年</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="yearly_vol">
+      <type>percent</type>
+      <language>
+         <chinese>波动率-年收益率</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="avg_drawdown">
+      <type>percent</type>
+      <language>
+         <chinese>平均回撤比例</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="avg_drawdown_days">
+      <type>float</type>
+      <language>
+         <chinese>平均回撤天数</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="avg_up_month">
+      <type>percent</type>
+      <language>
+         <chinese>####</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="avg_down_month">
+      <type>percent</type>
+      <language>
+         <chinese>####</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+   <index content="win_year_perc">
+      <type>percent</type>
+      <language>
+         <chinese>####</chinese>
+      </language>
+      <display>invisible</display>
+   </index>
+</performance>
