@@ -1,4 +1,5 @@
 --Create table
+drop table performance_statics;
 create table perfdata.performance_statics 
 (
   ID                          varchar2(40) not null,

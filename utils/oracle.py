@@ -39,3 +39,15 @@ def sql_select(sql, db):
 	result_str = cursor.fetchall()
 	cursor.close()
 	return result_str
+
+def procedure(proc_name_str):
+	abspath_str =  os.path.abspath(".") + '\\performance_monitoring'
+	with open(abspath_str+'\\configuration\\administrator.json', 'r') as file:
+		administrator_dict = json.load(file)
+	conn_str = administrator_dict['oracle']['conn_str']
+	db = cx_Oracle.connect(conn_str)
+	cursor = db.cursor()
+	cursor.callproc(proc_name_str)
+	cursor.close()
+	db.commit()
+	db.close()

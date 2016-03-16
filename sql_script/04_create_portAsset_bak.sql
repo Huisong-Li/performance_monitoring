@@ -1,4 +1,5 @@
 --Create table
+drop table portAsset_bak;
 create table perfdata.portAsset_bak 
 (
   ID                          varchar2(40),
@@ -46,5 +47,5 @@ tablespace perfdata
   next 1M
   minextents 1
   maxextents unlimited
-  );
+  )
 /

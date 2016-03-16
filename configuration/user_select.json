@@ -1,10 +1,11 @@
 {
 "basic":
           {
-          "start_date":20140101, 
-          "end_date"  :20151231,
+          "start_date":"20140101", 
+          "end_date"  :"20151231",
           "fund_names":"F00002",
-          "port_names":"P00004"
+          "port_names":["P00003","P00004"],
+          "benchmark_code":"000300.SH"  
           },
 "holdings":
           {

@@ -15,7 +15,6 @@ import pandas as pd
 from pandas import Series, DataFrame
 
 from ..utils import oracle
-from ..utils import select_translate
 
 os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 
@@ -44,7 +43,7 @@ class extraction():
 		if file_names_list != []:
 			return file_names_list
 		else:
-			sys.exit('empty folder')
+			sys.exit('...oops,empty folder...')
 
 	# get file date string
 	def get_file_date(self,file_name):
@@ -560,6 +559,7 @@ class extraction():
 
 	# function for debug
 	def debug(self):
+		#pass
 		## holdings
 		holdings_df = pd.DataFrame()
 		holdings_df = self.get_holdings_return()
@@ -575,4 +575,3 @@ class extraction():
 		## delete sql language
 		# delete_sql_str = raw_input('please enter the sql statement(enable table portAsset, portHolding):\n')
 		# self.delete_from_oracle(delete_sql_str)
-		# select_translate.translate()

@@ -1,4 +1,5 @@
 --Create table
+drop table portHolding_bak;
 create table perfdata.portHolding_bak
 (
   ID                            varchar2(40),

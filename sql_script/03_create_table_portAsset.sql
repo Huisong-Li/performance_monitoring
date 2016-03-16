@@ -1,4 +1,5 @@
 --Create table
+drop table perfdata.portAsset;
 create table perfdata.portAsset 
 (
   ID                          varchar2(20) not null,
@@ -62,4 +63,4 @@ alter table perfdata.portAsset
   minextents 1
   maxextents unlimited
   )
-/
+	/

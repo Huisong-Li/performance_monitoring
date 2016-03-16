@@ -5,7 +5,7 @@
              },
 "destination":
              {
-             "file_directory"    :"\\destination\\",
+             "file_directory"    :"C:\\Users\\M.Me_Too\\Desktop\\performance_monitoring\\destination\\",
              "assets_file_name"  :"assets_performance.xlsx",
              "holdings_file_name":"holdings_performance.xlsx"
              }

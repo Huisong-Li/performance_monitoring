@@ -1,4 +1,5 @@
 --Create table
+drop table portHolding;
 create table perfdata.portHolding 
 (
   ID                            varchar2(40) not null,
@@ -61,5 +62,5 @@ alter table perfdata.portHolding
   next 1M
   minextents 1
   maxextents unlimited
-  )
-  /
+  );
+

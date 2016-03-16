@@ -40,7 +40,7 @@
          <chinese>复合年均增长率</chinese>
       </language>
       <display>visible</display>
-   </index>
+   </index> 
    <index content="max_drawdown">
       <type>percent</type>
       <language>
@@ -72,7 +72,7 @@
    <index content="ytd">
       <type>percent</type>
       <language>
-         <chinese>年化收益率</chinese>
+         <chinese>1年持有到期收益率（YTD）</chinese>
       </language>
       <display>visible</display>
    </index>
@@ -93,14 +93,14 @@
    <index content="daily_mean">
       <type>percent</type>
       <language>
-         <chinese>均值-日收益率</chinese>
+         <chinese>年化收益率（日收益率推算）</chinese>
       </language>
       <display>visible</display>
    </index>
    <index content="daily_vol">
       <type>percent</type>
       <language>
-         <chinese>波动率-日收益率</chinese>
+         <chinese>年化波动率（日收益率推算）</chinese>
       </language>
       <display>visible</display>
    </index>
@@ -123,14 +123,14 @@
       <language>
          <chinese>最大日收益率</chinese>
       </language>
-      <display>invisible</display>
+      <display>visible</display>
    </index>
    <index content="worst_day">
       <type>percent</type>
       <language>
          <chinese>最小日收益率</chinese>
       </language>
-      <display>invisible</display>
+      <display>visible</display>
    </index>
    <index content="monthly_sharpe">
       <type>float</type>
@@ -142,14 +142,14 @@
    <index content="monthly_mean">
       <type>percent</type>
       <language>
-         <chinese>均值-月收益率</chinese>
+         <chinese>年化收益率（月收益率均值推算）</chinese>
       </language>
       <display>visible</display>
    </index>
    <index content="monthly_vol">
       <type>percent</type>
       <language>
-         <chinese>波动率-月收益率</chinese>
+         <chinese>年化波动率（月收益率推算）</chinese>
       </language>
       <display>visible</display>
    </index>
@@ -230,4 +230,39 @@
       </language>
       <display>invisible</display>
    </index>
+   <index content="treynor_ratio">
+      <type>float</type>
+      <language>
+         <chinese>特雷诺指数</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="jensens_alpha">
+      <type>float</type>
+      <language>
+         <chinese>詹森指数</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="information_ratio">
+      <type>float</type>
+      <language>
+         <chinese>信息指数</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="beta">
+      <type>float</type>
+      <language>
+         <chinese>Beta</chinese>
+      </language>
+      <display>visible</display>
+   </index>
+   <index content="incep">
+      <type>percent</type>
+      <language>
+         <chinese>持有到期收益</chinese>
+      </language>
+      <display>invisible</display>
+   </index>  
 </performance>
